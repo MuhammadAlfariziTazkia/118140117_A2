@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		TUGAS PEMWEB PRAKTIKUM
+	</title>
+	<link rel="stylesheet" type="text/css" href="style_tugas_1.css">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		img{
+			width: 125px;
+			margin-top: 30px;
+			margin-left: 20px;
+		}
+		td h1{
+			margin-top: 45px;
+			margin-left: 20px;
+		}
+		li{
+			list-style-type: none;
+			background-color: #2495a9;
+			margin-top: 7px;
+			color: white;
+			font-size: 25px;
+			margin-left: 5px;
+			margin-right: 5px;
+			border-radius: 10px;
+			border-color: white;
+			border: solid;
+			border-width: 1px;
+			padding: 10px;
+		}
+		a{
+			text-decoration: none;
+		}
+		label{
+			margin-left: 10px;
+		}
+		a li:hover{
+			font-size: 27px;
+		}
+		form{
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<table>
+			<tr>
+				<td><img src="img/itera.png"></td>
+				<td><h1 style="background-color: white; color: black; padding: 15px; ">Institut Teknologi Sumatera</h1></td>
+			</tr>
+		</table>	
+	</div>
+	<div class="mid">
+		<div class="kolom1">
+			<nav>
+				<ul>
+					<a href=""><li>Home</li></a>
+					<a href=""><li>Dashboard</li></a>
+					<a href=""><li>Profil</li></a>
+					<a href=""><li>Article</li></a>
+					<a href=""><li>Galery</li></a>
+					<a href=""><li>Contact Us</li></a>
+				</ul>
+			</nav>
+		</div>
+		<div class="kolom2">
+			<p style="margin-left: 15px; text-indent: 25px;">
+				HTML Form
+				HTML Form digunakan untuk memberikan data ke sebuah server. Sebuah HTML Form dapat
+				memiliki input – input element antara lain text field, checkbox, radio- button, submit button dan
+				lain-lain. Sebuah form juga dapat mengandung select lists, textarea, fieldset, legend, dan element
+				label. Berikut merupakan contoh form.
+			</p>
+
+			<center><h1 style="margin-bottom: 20px; margin-top: 50px">FORM REGISTRASI</h1></center>
+
+			<form style="border: solid; border-radius: 5px; margin: 10px; padding: 10px;">
+					<label>Name :</label>
+					<input type="text" name="">
+
+					<br><br>	
+
+					<label>Gender :</label>
+					<input type="radio" name="gender" value="man" id="man">
+					<label for="man">Man</label>
+					<input type="radio" name="gender" id="woman" value="woman" style="margin-left: 25px">
+					<label for="woman">Woman</label>
+
+					<br><br>	
+
+					<label>Address :</label>
+					<input type="text" name="">
+					
+					<br><br>
+
+					<label>Country :</label>
+					<select name="country">
+						<option value="indonesia">Indonesia</option>
+					</select>
+
+					<br><br>	
+
+					<label>Email :</label>
+					<input type="text" name="email">
+
+					<br><br>	
+
+					<label>Photo :</label>
+					<input type="text" name="">
+					<input type="file" name="">
+					
+					<br><br>	
+
+					<label id="comment">Comment :</label>
+					<textarea style="margin: 0px; height: 95px; width: 266px;"></textarea>
+					<button>Submit</button>
+			</form>
+		</div>
+	</div>
+	<div class="footer">
+		<center><label style=" display:block; line-height: 50px; font-size: 25px">Muhammad Alfarizi Tazkia</label>
+			<br>
+			<label style=" display:block; font-size: 15px">118140117</label></center>
+	</div>
+</body>
+</html>
