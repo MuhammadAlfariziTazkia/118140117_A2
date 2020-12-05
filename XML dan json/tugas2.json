@@ -1,0 +1,18 @@
+{
+	"dataDiri" :{
+		"nama" : {
+			"awal" : "Muhammad",
+			"tengah" : "Alfarizi",
+			"akhir" : "Tazkia"
+		},
+		"saudara" :{
+			"nama" : {
+				"awal" : "Ibrahim",
+				"tengah" : "Althaaf",
+				"akhir" : "Tazkia"
+			}
+		}
+		
+		}
+	}
+}

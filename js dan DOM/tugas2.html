@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<title>List Barang</title>
+</head>
+<body>
+	<h1 class="manipulasi">Manipulasi dengan DOM</h1>
+	<input type="text" name="namaBarang" id="namaBarang" placeholder="Input Nama Barang">
+	<button type="submit" onclick="addData()">Tambah Data</button>
+	<ul id="showData" class="manipulasi">
+		
+	</ul>
+
+	
+	<br>
+	<button onclick="ubahWarna('id','green')">Ubah Warna pake getElementById</button><br><br>
+	<button onclick="ubahWarna('class','red')">Ubah Warna pake getElementByClass</button><br><br>
+	<button onclick="ubahWarna('tag','yellow')">Ubah Warna pake getElementByTagName</button><br><br>
+	<button onclick="ubahWarna('query','blue')">Ubah Warna pake querySelector</button><br><br>
+	<button onclick="ubahWarna('queryall','orange')">Ubah Warna pake querySelectorAll</button><br><br>
+	<script src="function.js"></script>
+</body>
+</html>

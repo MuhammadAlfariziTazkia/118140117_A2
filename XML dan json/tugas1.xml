@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataDiri>
+	<nama>
+		<awal> Muhammad </awal>
+		<tengah> Alfarizi </tengah>
+		<akhir> Tazkia </akhir>
+	</nama>
+	<saudara>
+		<jumlahSaudara> 1 </jumlahSaudara>
+		<nama> 
+			<awal> Ibrahim </awal>
+			<tengah> Althaaf </tengah>
+			<akhir> Tazkia </akhir>
+		</nama>
+	</saudara>
+	<orangTua>
+		<ayah>
+			<nama> Amrizoni </nama>
+		</ayah>
+		<ibu>
+			<nama>
+				<awal> Rustina </awal>
+				<akhir> Sari </akhir>
+			</nama>
+		</ibu>
+	</orangTua>
+	<hobby>
+		Berenang
+	</hobby>
+	<alamat>
+		<provinsi> Lampung </provinsi>
+		<kecamatan> jatiagung </kecamatan>
+		<kelurahan> way huwi </kelurahan>
+		<jalan> Airan 2 </jalan>
+	</alamat>
+	<socmed>
+		<instagram> @muhammadalfarizi.t </instagram>
+		<twitter> malfrz </twitter>
+		<line> alfari321 </line>
+	</socmed>
+</dataDiri>
