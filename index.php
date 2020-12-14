@@ -13,7 +13,7 @@
 <body>
 <h1>FORM DATA MAHASISWA</h1>
 	<form method="post" id="inputdata">
-	<input type="number" name="nim" placeholder="Masukan NIM" class="form" required=""> <br>
+	<input type="number" name="nim" id="nim" placeholder="Masukan NIM" class="form" required=""> <br>
 	<input type="text" name="nama" placeholder="Masukan Nama" class="form" required="">	<br> <br>
 	<label class="form">Prodi :</label><br>
 	<select class="form" name="prodi">
@@ -30,6 +30,7 @@
 	</select>
 	<br><br>
 	<button id="tambah" type="submit">Tambah</button>
+	<button id="update" type="submit">Update</button>
 </form>
 <br><br>
 
@@ -44,22 +45,20 @@
 				type : 'POST',
 				url : "tambah.php",
 				data : data,
-				cache : false,
 				success : function(data){
 					$('#tampilan').load("tampil.php");
 				}
 			});
 		});
 		$('#update').click(function(){
-			var data = $('#updatedata').serialize();
+			var dataUpdate = $('#inputdata').serialize();
+			console.log("woy");
 			$.ajax({
 				type : 'POST',
 				url : "update.php",
-				data : data,
-				cache : false,
+				data : dataUpdate,
 				success : function(data){
 					$('#tampilan').load("tampil.php");
-					$('#updatedata').reset();
 				}
 			});
 		});
